@@ -5,9 +5,6 @@ maven 'Maven3'
 }
 stages {
 
-DevOps Lab Cheat Sheet
-
-Prof. Akshatha M, VVCE
 stage('CHECKOUT') {
 steps {
 git 'your_github_repo_link'
