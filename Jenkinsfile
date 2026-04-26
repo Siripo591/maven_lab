@@ -7,7 +7,7 @@ stages {
 
 stage('CHECKOUT') {
 steps {
-git 'your_github_repo_link'
+git 'https://github.com/Siripo591/maven_lab.git'
 }
 }
 stage('Build') {
